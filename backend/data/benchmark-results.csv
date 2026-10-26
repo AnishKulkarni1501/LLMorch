@@ -1,0 +1,121 @@
+trial,task_id,task,scenario,system,completed,correct,latency_seconds,tool_calls,recovery_attempted,recovery_success,validation_failures,validation_checks,observed_tool_latency_seconds
+0,search,Search research documents about MCP tools,normal,direct_api,True,True,0.02901849994668737,1,False,False,0,0,0.02901849994668737
+0,search,Search research documents about MCP tools,normal,orchestrator,True,True,0.028586699976585805,1,False,False,0,1,0.027942200016696006
+0,search,Search research documents about MCP tools,one_transient_failure,direct_api,True,True,0.062071100051980466,2,True,True,0,0,0.062071100051980466
+0,search,Search research documents about MCP tools,one_transient_failure,orchestrator,True,True,0.12380000000121072,2,True,True,0,2,0.12365399999544024
+0,sum,Calculate the sum of 4 and 5,normal,orchestrator,True,True,0.030936700000893325,1,False,False,0,1,0.03074459999334067
+0,sum,Calculate the sum of 4 and 5,normal,direct_api,True,True,0.03188139997655526,1,False,False,0,0,0.03188139997655526
+0,sum,Calculate the sum of 4 and 5,one_transient_failure,direct_api,True,True,0.0616188999847509,2,True,True,0,0,0.0616188999847509
+0,sum,Calculate the sum of 4 and 5,one_transient_failure,orchestrator,True,True,0.12408460001461208,2,True,True,0,2,0.12392330000875518
+0,report,Write a report on graph scheduling,normal,direct_api,True,True,0.030279200000222772,1,False,False,0,0,0.030279200000222772
+0,report,Write a report on graph scheduling,normal,orchestrator,True,True,0.03085740003734827,1,False,False,0,1,0.030732600018382072
+0,report,Write a report on graph scheduling,one_transient_failure,direct_api,True,True,0.06280240003252402,2,True,True,0,0,0.06280240003252402
+0,report,Write a report on graph scheduling,one_transient_failure,orchestrator,True,True,0.1258862999966368,2,True,True,0,2,0.12574119999771938
+0,research_then_report,Research failure recovery then write a report based on the findings,normal,orchestrator,True,True,0.062488599971402436,2,False,False,0,2,0.06223390006925911
+0,research_then_report,Research failure recovery then write a report based on the findings,normal,direct_api,True,True,0.06108399998629466,2,False,False,0,0,0.06108399998629466
+0,research_then_report,Research failure recovery then write a report based on the findings,one_transient_failure,direct_api,True,True,0.09428130002925172,3,True,True,0,0,0.09428130002925172
+0,research_then_report,Research failure recovery then write a report based on the findings,one_transient_failure,orchestrator,True,True,0.15479569998569787,3,True,True,0,3,0.1545445000519976
+0,find_dag,Find information about DAG scheduling,normal,direct_api,True,True,0.03123100002994761,1,False,False,0,0,0.03123100002994761
+0,find_dag,Find information about DAG scheduling,normal,orchestrator,True,True,0.03084999998100102,1,False,False,0,1,0.030691699997987598
+0,find_dag,Find information about DAG scheduling,one_transient_failure,direct_api,True,True,0.0629394999705255,2,True,True,0,0,0.0629394999705255
+0,find_dag,Find information about DAG scheduling,one_transient_failure,orchestrator,True,True,0.12309259996982291,2,True,True,0,2,0.12290049996227026
+0,mean,Calculate the average of 2 4 6,normal,orchestrator,True,True,0.031216299976222217,1,False,False,0,1,0.031071200035512447
+0,mean,Calculate the average of 2 4 6,normal,direct_api,True,True,0.030973699991591275,1,False,False,0,0,0.030973699991591275
+0,mean,Calculate the average of 2 4 6,one_transient_failure,direct_api,True,True,0.06188090000068769,2,True,True,0,0,0.06188090000068769
+0,mean,Calculate the average of 2 4 6,one_transient_failure,orchestrator,True,True,0.12240059999749064,2,True,True,0,2,0.12222270003985614
+0,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,normal,direct_api,True,True,0.03152509999927133,1,False,False,0,0,0.03152509999927133
+0,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,normal,orchestrator,True,True,0.030484699993394315,1,False,False,0,1,0.030336799973156303
+0,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,one_transient_failure,direct_api,True,True,0.06263229995965958,2,True,True,0,0,0.06263229995965958
+0,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,one_transient_failure,orchestrator,True,True,0.12383700005011633,2,True,True,0,2,0.12358700000913814
+0,dataset,"Summarize dataset values 3, 7, null, 10",normal,orchestrator,True,True,0.02912710001692176,1,False,False,0,1,0.028924399986863136
+0,dataset,"Summarize dataset values 3, 7, null, 10",normal,direct_api,True,True,0.03191350004635751,1,False,False,0,0,0.03191350004635751
+0,dataset,"Summarize dataset values 3, 7, null, 10",one_transient_failure,direct_api,True,True,0.06209399999352172,2,True,True,0,0,0.06209399999352172
+0,dataset,"Summarize dataset values 3, 7, null, 10",one_transient_failure,orchestrator,True,True,0.12448860000586137,2,True,True,0,2,0.12433750001946464
+0,units,Convert 5 km to miles,normal,direct_api,True,True,0.030793300014920533,1,False,False,0,0,0.030793300014920533
+0,units,Convert 5 km to miles,normal,orchestrator,True,True,0.03043929999694228,1,False,False,0,1,0.03023490001214668
+0,units,Convert 5 km to miles,one_transient_failure,direct_api,True,True,0.06073950004065409,2,True,True,0,0,0.06073950004065409
+0,units,Convert 5 km to miles,one_transient_failure,orchestrator,True,True,0.123338200035505,2,True,True,0,2,0.12313469999935478
+0,files,List files in the user documents folder,normal,orchestrator,True,True,0.03186449996428564,1,False,False,0,1,0.03167380002560094
+0,files,List files in the user documents folder,normal,direct_api,True,True,0.031094000034499913,1,False,False,0,0,0.031094000034499913
+0,files,List files in the user documents folder,one_transient_failure,direct_api,True,True,0.0633936999947764,2,True,True,0,0,0.0633936999947764
+0,files,List files in the user documents folder,one_transient_failure,orchestrator,True,True,0.12320620001992211,2,True,True,0,2,0.12303399998927489
+1,search,Search research documents about MCP tools,normal,direct_api,True,True,0.031134999997448176,1,False,False,0,0,0.031134999997448176
+1,search,Search research documents about MCP tools,normal,orchestrator,True,True,0.03055499994661659,1,False,False,0,1,0.030330400040838867
+1,search,Search research documents about MCP tools,one_transient_failure,direct_api,True,True,0.06104679999407381,2,True,True,0,0,0.06104679999407381
+1,search,Search research documents about MCP tools,one_transient_failure,orchestrator,True,True,0.12513249996118248,2,True,True,0,2,0.12493709998670965
+1,sum,Calculate the sum of 4 and 5,normal,orchestrator,True,True,0.029739799967501312,1,False,False,0,1,0.029578500019852072
+1,sum,Calculate the sum of 4 and 5,normal,direct_api,True,True,0.03212400001939386,1,False,False,0,0,0.03212400001939386
+1,sum,Calculate the sum of 4 and 5,one_transient_failure,direct_api,True,True,0.06190869997953996,2,True,True,0,0,0.06190869997953996
+1,sum,Calculate the sum of 4 and 5,one_transient_failure,orchestrator,True,True,0.1243368000141345,2,True,True,0,2,0.12418980000074953
+1,report,Write a report on graph scheduling,normal,direct_api,True,True,0.030063000041991472,1,False,False,0,0,0.030063000041991472
+1,report,Write a report on graph scheduling,normal,orchestrator,True,True,0.03125410003121942,1,False,False,0,1,0.031107000017073005
+1,report,Write a report on graph scheduling,one_transient_failure,direct_api,True,True,0.06250870000803843,2,True,True,0,0,0.06250870000803843
+1,report,Write a report on graph scheduling,one_transient_failure,orchestrator,True,True,0.12266970000928268,2,True,True,0,2,0.12250150000909343
+1,research_then_report,Research failure recovery then write a report based on the findings,normal,orchestrator,True,True,0.06134169996948913,2,False,False,0,2,0.06093419995158911
+1,research_then_report,Research failure recovery then write a report based on the findings,normal,direct_api,True,True,0.06213229999411851,2,False,False,0,0,0.06213229999411851
+1,research_then_report,Research failure recovery then write a report based on the findings,one_transient_failure,direct_api,True,True,0.09331169998040423,3,True,True,0,0,0.09331169998040423
+1,research_then_report,Research failure recovery then write a report based on the findings,one_transient_failure,orchestrator,True,True,0.15536610002163798,3,True,True,0,3,0.15498529997421429
+1,find_dag,Find information about DAG scheduling,normal,direct_api,True,True,0.03125319996615872,1,False,False,0,0,0.03125319996615872
+1,find_dag,Find information about DAG scheduling,normal,orchestrator,True,True,0.03130650002276525,1,False,False,0,1,0.031154300027992576
+1,find_dag,Find information about DAG scheduling,one_transient_failure,direct_api,True,True,0.06207049998920411,2,True,True,0,0,0.06207049998920411
+1,find_dag,Find information about DAG scheduling,one_transient_failure,orchestrator,True,True,0.1244927000370808,2,True,True,0,2,0.12436320004053414
+1,mean,Calculate the average of 2 4 6,normal,orchestrator,True,True,0.03194010001607239,1,False,False,0,1,0.03175650001503527
+1,mean,Calculate the average of 2 4 6,normal,direct_api,True,True,0.030240499996580184,1,False,False,0,0,0.030240499996580184
+1,mean,Calculate the average of 2 4 6,one_transient_failure,direct_api,True,True,0.06389839999610558,2,True,True,0,0,0.06389839999610558
+1,mean,Calculate the average of 2 4 6,one_transient_failure,orchestrator,True,True,0.12262419995386153,2,True,True,0,2,0.12234539998462424
+1,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,normal,direct_api,True,True,0.03064229997107759,1,False,False,0,0,0.03064229997107759
+1,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,normal,orchestrator,True,True,0.03037729999050498,1,False,False,0,1,0.030176099971868098
+1,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,one_transient_failure,direct_api,True,True,0.06183799996506423,2,True,True,0,0,0.06183799996506423
+1,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,one_transient_failure,orchestrator,True,True,0.12448830000357702,2,True,True,0,2,0.12435440003173426
+1,dataset,"Summarize dataset values 3, 7, null, 10",normal,orchestrator,True,True,0.03012420004233718,1,False,False,0,1,0.02998490002937615
+1,dataset,"Summarize dataset values 3, 7, null, 10",normal,direct_api,True,True,0.030923200014512986,1,False,False,0,0,0.030923200014512986
+1,dataset,"Summarize dataset values 3, 7, null, 10",one_transient_failure,direct_api,True,True,0.06242590001784265,2,True,True,0,0,0.06242590001784265
+1,dataset,"Summarize dataset values 3, 7, null, 10",one_transient_failure,orchestrator,True,True,0.12380659999325871,2,True,True,0,2,0.1236229999922216
+1,units,Convert 5 km to miles,normal,direct_api,True,True,0.030661299999337643,1,False,False,0,0,0.030661299999337643
+1,units,Convert 5 km to miles,normal,orchestrator,True,True,0.03203859995119274,1,False,False,0,1,0.03187619999516755
+1,units,Convert 5 km to miles,one_transient_failure,direct_api,True,True,0.06187470001168549,2,True,True,0,0,0.06187470001168549
+1,units,Convert 5 km to miles,one_transient_failure,orchestrator,True,True,0.12322029995266348,2,True,True,0,2,0.1230513000045903
+1,files,List files in the user documents folder,normal,orchestrator,True,True,0.030489300028420985,1,False,False,0,1,0.03035939997062087
+1,files,List files in the user documents folder,normal,direct_api,True,True,0.03036110004177317,1,False,False,0,0,0.03036110004177317
+1,files,List files in the user documents folder,one_transient_failure,direct_api,True,True,0.06288959999801591,2,True,True,0,0,0.06288959999801591
+1,files,List files in the user documents folder,one_transient_failure,orchestrator,True,True,0.12552269996376708,2,True,True,0,2,0.1253714999766089
+2,search,Search research documents about MCP tools,normal,direct_api,True,True,0.030767799995373935,1,False,False,0,0,0.030767799995373935
+2,search,Search research documents about MCP tools,normal,orchestrator,True,True,0.030373999965377152,1,False,False,0,1,0.030176300031598657
+2,search,Search research documents about MCP tools,one_transient_failure,direct_api,True,True,0.062494800018612295,2,True,True,0,0,0.062494800018612295
+2,search,Search research documents about MCP tools,one_transient_failure,orchestrator,True,True,0.12258069997187704,2,True,True,0,2,0.12242359999800101
+2,sum,Calculate the sum of 4 and 5,normal,orchestrator,True,True,0.030875700002070516,1,False,False,0,1,0.030683699995279312
+2,sum,Calculate the sum of 4 and 5,normal,direct_api,True,True,0.02970920002553612,1,False,False,0,0,0.02970920002553612
+2,sum,Calculate the sum of 4 and 5,one_transient_failure,direct_api,True,True,0.06319379998603836,2,True,True,0,0,0.06319379998603836
+2,sum,Calculate the sum of 4 and 5,one_transient_failure,orchestrator,True,True,0.12301809998461977,2,True,True,0,2,0.12281630001962185
+2,report,Write a report on graph scheduling,normal,direct_api,True,True,0.031036100001074374,1,False,False,0,0,0.031036100001074374
+2,report,Write a report on graph scheduling,normal,orchestrator,True,True,0.030987299978733063,1,False,False,0,1,0.030817900027614087
+2,report,Write a report on graph scheduling,one_transient_failure,direct_api,True,True,0.06115789996692911,2,True,True,0,0,0.06115789996692911
+2,report,Write a report on graph scheduling,one_transient_failure,orchestrator,True,True,0.12436780001735315,2,True,True,0,2,0.12420999997993931
+2,research_then_report,Research failure recovery then write a report based on the findings,normal,orchestrator,True,True,0.062463599955663085,2,False,False,0,2,0.061803200049325824
+2,research_then_report,Research failure recovery then write a report based on the findings,normal,direct_api,True,True,0.06226320000132546,2,False,False,0,0,0.06226320000132546
+2,research_then_report,Research failure recovery then write a report based on the findings,one_transient_failure,direct_api,True,True,0.09426260000327602,3,True,True,0,0,0.09426260000327602
+2,research_then_report,Research failure recovery then write a report based on the findings,one_transient_failure,orchestrator,True,True,0.15663769998354837,3,True,True,0,3,0.15636000002268702
+2,find_dag,Find information about DAG scheduling,normal,direct_api,True,True,0.030475799983832985,1,False,False,0,0,0.030475799983832985
+2,find_dag,Find information about DAG scheduling,normal,orchestrator,True,True,0.03099400002975017,1,False,False,0,1,0.03079069999512285
+2,find_dag,Find information about DAG scheduling,one_transient_failure,direct_api,True,True,0.06166460004169494,2,True,True,0,0,0.06166460004169494
+2,find_dag,Find information about DAG scheduling,one_transient_failure,orchestrator,True,True,0.12422509997850284,2,True,True,0,2,0.1240395000204444
+2,mean,Calculate the average of 2 4 6,normal,orchestrator,True,True,0.030965199985075742,1,False,False,0,1,0.030814800004009157
+2,mean,Calculate the average of 2 4 6,normal,direct_api,True,True,0.030629799992311746,1,False,False,0,0,0.030629799992311746
+2,mean,Calculate the average of 2 4 6,one_transient_failure,direct_api,True,True,0.06291029998101294,2,True,True,0,0,0.06291029998101294
+2,mean,Calculate the average of 2 4 6,one_transient_failure,orchestrator,True,True,0.12376950000179932,2,True,True,0,2,0.1236281999736093
+2,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,normal,direct_api,True,True,0.031186900043394417,1,False,False,0,0,0.031186900043394417
+2,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,normal,orchestrator,True,True,0.029461199999786913,1,False,False,0,1,0.029265500023029745
+2,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,one_transient_failure,direct_api,True,True,0.06143649999285117,2,True,True,0,0,0.06143649999285117
+2,text,Count words and find frequent terms in this text: DAG tasks can run concurrently,one_transient_failure,orchestrator,True,True,0.12565970001742244,2,True,True,0,2,0.12549269996816292
+2,dataset,"Summarize dataset values 3, 7, null, 10",normal,orchestrator,True,True,0.03005599998869002,1,False,False,0,1,0.029855299973860383
+2,dataset,"Summarize dataset values 3, 7, null, 10",normal,direct_api,True,True,0.03186669998103753,1,False,False,0,0,0.03186669998103753
+2,dataset,"Summarize dataset values 3, 7, null, 10",one_transient_failure,direct_api,True,True,0.06202620000112802,2,True,True,0,0,0.06202620000112802
+2,dataset,"Summarize dataset values 3, 7, null, 10",one_transient_failure,orchestrator,True,True,0.12335590005386621,2,True,True,0,2,0.12321680004242808
+2,units,Convert 5 km to miles,normal,direct_api,True,True,0.030807900009676814,1,False,False,0,0,0.030807900009676814
+2,units,Convert 5 km to miles,normal,orchestrator,True,True,0.030650800035800785,1,False,False,0,1,0.03051970002707094
+2,units,Convert 5 km to miles,one_transient_failure,direct_api,True,True,0.06288909999420866,2,True,True,0,0,0.06288909999420866
+2,units,Convert 5 km to miles,one_transient_failure,orchestrator,True,True,0.12495399999897927,2,True,True,0,2,0.12480520003009588
+2,files,List files in the user documents folder,normal,orchestrator,True,True,0.0325167000410147,1,False,False,0,1,0.03237309999531135
+2,files,List files in the user documents folder,normal,direct_api,True,True,0.029307999997399747,1,False,False,0,0,0.029307999997399747
+2,files,List files in the user documents folder,one_transient_failure,direct_api,True,True,0.06245880003552884,2,True,True,0,0,0.06245880003552884
+2,files,List files in the user documents folder,one_transient_failure,orchestrator,True,True,0.12453660002211109,2,True,True,0,2,0.12425360002089292

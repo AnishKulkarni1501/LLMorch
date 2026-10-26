@@ -1,0 +1,8 @@
+# Local development secrets are not committed.
+backend/.env
+backend/.venv/
+backend/data/workflows/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
